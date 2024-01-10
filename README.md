@@ -3,7 +3,39 @@
 
 Araba kiralama uygulaması, Python programlama dili kullanılarak geliştirilen ve grafik kullanıcı arayüzü (GUI) tasarımını bir araya getirerek, araç kiralama süreçlerini yönetebilen bir yazılımın nasıl oluşturulacağını gösterir. Kodun temelinde, nesne tabanlı programlama (OOP) prensipleri ve SQLite veritabanı kullanımı bulunmaktadır.
 
-![image](https://github.com/nazli-d/Rent-a-car-oop/assets/96622076/30e22775-b526-49de-b463-9b540d82bc8d)
+![image](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-1.png)
+
+## Kullanılan Sınıflar ve OOP Prensipleri
+### Araba Sınıfı:
+
+#### Encapsulation (Kapsülleme):
+Araba sınıfı, özelliklerini (marka, model, yıl, kilometre) ve bu özelliklere erişim yöntemlerini içerir. Bu sayede, sınıfın iç yapısını gizleyerek dış dünyadan gelebilecek olası değişikliklere karşı koruma sağlanır.
+
+![image](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-3.png)
+
+#### Inheritance (Kalıtım): 
+Elektrikli Araba ve Benzinli Araba sınıfları, Araba sınıfından türetilmiştir. Bu sayede, temel özellikleri Araba sınıfından miras alarak, kod tekrarı önlenir ve kodun genişletilebilirliği artar.
+
+#### Abstraction (Soyutlama): 
+Araba sınıfı, soyut bir sınıftır. İçerisinde soyut bir metot olan "bakim" metodu bulunur. Araç tipine özel bakım sürecini soyut olarak tanımlayarak yöntemin alt sınıflara göre uygulanması gerektiğini belirtir.
+
+![image](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-5.png)
+
+### Elektrikli Araba ve Benzinli Araba Sınıfları:
+
+#### Inheritance (Kalıtım): 
+Her iki sınıf da Araba sınıfından türetilmiştir. Bu sayede, her iki sınıf da Araba sınıfının özelliklerini ve metotlarını kullanabilir.
+
+
+#### Polymorphism (Çok Biçimlilik): 
+Her iki alt sınıf, Araba sınıfının soyut metodu olan "bakim"ı kendi ihtiyaçlarına göre uygular. Aynı isimli metodun farklı davranışlar sergilemesine olanak tanır.
+
+### Kiralama Sınıfı
+Kiralama sınıfı, bir kiralama işlemini temsil eder. Bu sınıf, kiralama işleminde kullanılan özellikleri ve bu işlemin ücretlendirilmesini içerir.
+
+### Araç Kiralama Uygulaması Sınıfı
+Bu sınıf, uygulamanın ana penceresini yönetir. Müşteri girişi, veritabanı bağlantısı, ana pencerenin oluşturulması ve araç listesinin gösterilmesi gibi temel işlevselliği içerir.
+
 
 ## Özellikler
 
@@ -13,26 +45,11 @@ Araba kiralama uygulaması, Python programlama dili kullanılarak geliştirilen 
 - **Veritabanı Entegrasyonu**: SQLite veritabanı üzerinde müşteri, araç ve kiralama bilgilerini saklar.
 - **Tablo Dışa Aktarma**: Veritabanındaki bilgileri CSV formatında dışa aktarma (export) imkanı sunar.
 
-## Nasıl Kullanılır?
+## GUI Ekran Görüntüleri
 
-1. **Müşteri Girişi**: Adınızı soyadınızı girin ve "Giriş Yap" butonuna tıklayarak sisteme giriş yapın.
-2. **Araç Seçimi**: Müsait araç listesinden istediğiniz aracı seçin ve kiralama tipi ile süreyi belirleyin.
-3. **Kiralama İşlemi**: Kiralama işlemini onaylayın ve aracınızı kiralayın. Aracın bakım durumu da gösterilecektir.
-4. **Veritabanı Dışa Aktarma**: İstediğiniz tabloyu CSV formatında dışa aktarabilirsiniz.
-
-## Kurulum
-
-1. Projeyi klonlayın: `git clone https://github.com/kullanici/arac-kiralama.git`
-2. Gerekli Kütüphaneleri indirin
-3. Uygulamayı başlatın: `python main.py`
-
-## Ekran Görüntüleri
-
-![Ana Sayfa](/screenshots/anasayfa.png)
-_Ana sayfa, müşteri girişi için bir form içerir._
-
-![Araç Listesi](/screenshots/arac-listesi.png)
-_Müsait araçların listelendiği bir ekran._
+![Ana Sayfa](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-9.png)
+![Ana Sayfa](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-10.png)
+![Ana Sayfa](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-11.png)
 
 ## Veritabanı Yapısı
 
@@ -41,3 +58,18 @@ Proje, SQLite veritabanı kullanır ve aşağıdaki tabloları içerir:
 - `musteri`: Müşteri bilgilerini saklar.
 - `arabalar`: Araç bilgilerini saklar.
 - `kiralama`: Kiralama işlemlerine ait detayları saklar.
+
+## Veritabanı Ekran Görüntüleri
+![Müşteri Tablosu](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-6.png)
+![Arabalar Tablosu](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-7.png)
+![Kiralama Tablosu](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-8.png)
+
+
+
+## Kurulum
+
+1. Projeyi klonlayın: `git clone https://github.com/kullanici/arac-kiralama.git`
+2. Gerekli Kütüphaneleri indirin
+3. Uygulamayı başlatın: `python main.py`
+
+
