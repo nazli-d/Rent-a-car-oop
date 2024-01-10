@@ -65,11 +65,11 @@ Proje, SQLite veritabanı kullanır ve aşağıdaki tabloları içerir:
 ![Kiralama Tablosu](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-8.png)
 
 
-
-## Kurulum
-
-1. Projeyi klonlayın: `git clone https://github.com/kullanici/arac-kiralama.git`
-2. Gerekli Kütüphaneleri indirin
-3. Uygulamayı başlatın: `python main.py`
+# Katkıda Bulun
+Projeye star vermek için aşağıdaki adımları takip edebilirsiniz:
+1. Projenin GitHub sayfasına gidin.
+2. Sayfanın sağ üst köşesinde bulunan "Star" düğmesine tıklayın.
+3. Eğer oturum açmadıysanız, GitHub hesabınızla oturum açmanız istenecektir. Oturum açın veya yeni bir GitHub hesabı oluşturun.
+4. "Star" düğmesine tekrar tıklayarak projeye star verebilirsiniz.
 
 
