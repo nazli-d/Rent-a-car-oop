@@ -6,34 +6,34 @@ Araba kiralama uygulaması, Python programlama dili kullanılarak geliştirilen 
 ![image](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-1.png)
 
 ## Kullanılan Sınıflar ve OOP Prensipleri
-### Araba Sınıfı:
+## Araba Sınıfı:
 
-#### Encapsulation (Kapsülleme):
+### Encapsulation (Kapsülleme):
 Araba sınıfı, özelliklerini (marka, model, yıl, kilometre) ve bu özelliklere erişim yöntemlerini içerir. Bu sayede, sınıfın iç yapısını gizleyerek dış dünyadan gelebilecek olası değişikliklere karşı koruma sağlanır.
 
 ![image](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-3.png)
 
-#### Inheritance (Kalıtım): 
+### Inheritance (Kalıtım): 
 Elektrikli Araba ve Benzinli Araba sınıfları, Araba sınıfından türetilmiştir. Bu sayede, temel özellikleri Araba sınıfından miras alarak, kod tekrarı önlenir ve kodun genişletilebilirliği artar.
 
-#### Abstraction (Soyutlama): 
+### Abstraction (Soyutlama): 
 Araba sınıfı, soyut bir sınıftır. İçerisinde soyut bir metot olan "bakim" metodu bulunur. Araç tipine özel bakım sürecini soyut olarak tanımlayarak yöntemin alt sınıflara göre uygulanması gerektiğini belirtir.
 
 ![image](https://github.com/nazli-d/Rent-a-car-oop/blob/main/image/img-5.png)
 
-### Elektrikli Araba ve Benzinli Araba Sınıfları:
+## Elektrikli Araba ve Benzinli Araba Sınıfları:
 
-#### Inheritance (Kalıtım): 
+### Inheritance (Kalıtım): 
 Her iki sınıf da Araba sınıfından türetilmiştir. Bu sayede, her iki sınıf da Araba sınıfının özelliklerini ve metotlarını kullanabilir.
 
 
-#### Polymorphism (Çok Biçimlilik): 
+### Polymorphism (Çok Biçimlilik): 
 Her iki alt sınıf, Araba sınıfının soyut metodu olan "bakim"ı kendi ihtiyaçlarına göre uygular. Aynı isimli metodun farklı davranışlar sergilemesine olanak tanır.
 
-### Kiralama Sınıfı
+## Kiralama Sınıfı
 Kiralama sınıfı, bir kiralama işlemini temsil eder. Bu sınıf, kiralama işleminde kullanılan özellikleri ve bu işlemin ücretlendirilmesini içerir.
 
-### Araç Kiralama Uygulaması Sınıfı
+## Araç Kiralama Uygulaması Sınıfı
 Bu sınıf, uygulamanın ana penceresini yönetir. Müşteri girişi, veritabanı bağlantısı, ana pencerenin oluşturulması ve araç listesinin gösterilmesi gibi temel işlevselliği içerir.
 
 
