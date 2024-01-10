@@ -1,0 +1,11 @@
+id,marka,model,yil,tip,durumu,kilometre
+1,Tesla,Model S,2023,Elektrikli,müsait,500
+2,Porsche,Taycan,2023,Elektrikli,müsait,20000
+3,Audi,e-tron,2023,Elektrikli,kiralandı,3000
+4,Mercedes-Benz,EQC,2023,Elektrikli,müsait,0
+5,Jaguar,I-PACE,2023,Elektrikli,kiralandı,15000
+6,Mercedes-Benz,S-Class,2023,Benzinli,müsait,1500
+7,BMW,7 Series,2023,Benzinli,müsait,32100
+8,Lexus,LS,2023,Benzinli,müsait,48000
+9,Audi,A8,2023,Benzinli,müsait,0
+10,Porsche,Panamera,2023,Benzinli,müsait,0
