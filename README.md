@@ -70,6 +70,6 @@ Projeye star vermek için aşağıdaki adımları takip edebilirsiniz:
 1. Projenin GitHub sayfasına gidin.
 2. Sayfanın sağ üst köşesinde bulunan "Star" düğmesine tıklayın.
 3. Eğer oturum açmadıysanız, GitHub hesabınızla oturum açmanız istenecektir. Oturum açın veya yeni bir GitHub hesabı oluşturun.
-4. "Star" düğmesine tekrar tıklayarak projeye star verebilirsiniz.
+4. "Star" düğmesine tekrar tıklayarak projeye katkıda bulunabilirsiniz.
 
 
